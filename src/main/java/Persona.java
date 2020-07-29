@@ -14,14 +14,14 @@ public class Persona {
     }
 
     public void setNombre (String unNombre){
-
         this.nombre = unNombre;
     }
 
-    public int getCedula(){ return this.cedula; }
+    public int getCedula(){
+        return this.cedula;
+    }
 
     public void setCedula (Integer unaCedula){
-
         this.cedula = unaCedula;
     }
 
@@ -30,11 +30,12 @@ public class Persona {
     }
 
     public void setEdad (Integer unaEdad){
-
         this.edad = unaEdad;
     }
-    
 
 
+    public String toString() {
+        return "Nombre de la persona: " + this.getNombre() + ". Cedula " + this.getCedula() + ". Edad " + this.getEdad();
+    }
 
 }
