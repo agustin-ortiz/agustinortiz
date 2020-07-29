@@ -23,5 +23,5 @@ public class Profesor {
         this.salario = unSalario;
     }
 
-    
+
 }
